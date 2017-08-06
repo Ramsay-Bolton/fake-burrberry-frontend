@@ -1,97 +1,89 @@
 html {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 body {
-    font-family: Raleway, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Raleway, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .main-header {
-    font-size: 0;
-    text-align: center;
-
-    border-bottom: solid 1px #c6c6c6;
+  font-size: 0;
+  text-align: center;
+  border-bottom: solid 1px #c6c6c6;
 }
 
 .main-header_logo {
-    width: 138px;
-    height: 10px;
-    margin: 1rem auto;
-    object-fit: contain;
+  width: 138px;
+  height: 10px;
+  margin: 1rem auto;
+  object-fit: contain;
 }
 
 .card {
-    border-bottom: solid 1px #c6c6c6;
+  border-bottom: solid 1px #c6c6c6;
 }
 
 .card_title {
-    margin: 1rem;
-
-    font-weight: 400;
-    font-size: 1.25rem;
-    line-height: 1.2;
-    font-family: Lora;
-    color: #111111;
+  margin: 1rem;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  font-family: Lora;
+  color: #111111;
 }
 
 .card_info {
-    position: relative;
-
-    margin: 1rem;
+  position: relative;
+  margin: 1rem;
 }
 
 .card_price {
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.25;
-    color: #111111;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: #111111;
 }
 
 .card_code {
-    position: absolute;
-    top: 0;
-    right: 0;
-
-    margin: 0;
-
-    font-size: 0.75rem;
-    line-height: 1.6666666667;
-    color: #171717;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.6666666667;
+  color: #171717;
 }
 
 .slider {
-    display: flex;
-    overflow-x: scroll;
+  display: flex;
+  overflow-x: scroll;
 }
 
 .colour {
-    margin: 0 1rem;
-    padding: 0 0 1rem;
-
-    border-bottom: solid 1px #c6c6c6;
+  margin: 0 1rem;
+  padding: 0 0 1rem;
+  border-bottom: solid 1px #c6c6c6;
 }
 
 .colour_current {
-    font-size: 0.75rem;
-    line-height: 1;
-    color: #171717;
+  font-size: 0.75rem;
+  line-height: 1;
+  color: #171717;
 }
 
 .colour_options {
-    display: flex;
-    margin: 1.0625rem 0 1rem;
+  display: flex;
+  margin: 1.0625rem 0 1rem;
 }
 
 .colour_option {
-    box-sizing: border-box;
-    width: 2.5rem;
-    height: 2.5rem;
-    margin-right: 1rem;
-
-    font-size: 0;
-
-    border: none;
-    border-radius: 50%;
+  box-sizing: border-box;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 1rem;
+  font-size: 0;
+  border: none;
+  border-radius: 50%;
 }
 
 .colour_option:last-child {
@@ -99,277 +91,247 @@ body {
 }
 
 .colour_option--active {
-    border: solid 1px #232122;
+  border: solid 1px #232122;
 }
 
 .colour_option--black {
-    background-color: #232122;
+  background-color: #232122;
 }
 
 .colour_option--brown {
-    background-color: #cfa880;
+  background-color: #cfa880;
 }
 
 .select-size {
-    box-sizing: border-box;
-    width: calc(100% - 2rem);
-    margin: 2rem 1rem 1rem;
-    padding: 1rem 0;
-
-    font-size: 0.75rem;
-    line-height: 1;
-    font-family: Raleway;
-    text-align: center;
-    color: #ffffff;
-    text-transform: uppercase;
-
-    background-color: #171717;
-    border: solid 1px #171717;
-    border-radius: 2px;
+  box-sizing: border-box;
+  width: calc(100% - 2rem);
+  margin: 2rem 1rem 1rem;
+  padding: 1rem 0;
+  font-size: 0.75rem;
+  line-height: 1;
+  font-family: Raleway;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #171717;
+  border: solid 1px #171717;
+  border-radius: 2px;
 }
 
 .find-in-store {
-    box-sizing: border-box;
-    width: calc(100% - 2rem);
-    margin: 0 1rem 1.3125rem;
-    padding: 1rem 0;
-
-    font-size: 0.75rem;
-    line-height: 1;
-    font-family: Raleway;
-    text-align: center;
-    text-transform: uppercase;
-
-    background-color: #ffffff;
-    border: solid 1px #999999;
-    border-radius: 2px;
+  box-sizing: border-box;
+  width: calc(100% - 2rem);
+  margin: 0 1rem 1.3125rem;
+  padding: 1rem 0;
+  font-size: 0.75rem;
+  line-height: 1;
+  font-family: Raleway;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  border: solid 1px #999999;
+  border-radius: 2px;
 }
 
 .need-help {
-    margin: 0 1rem 3rem;
-    padding: 0;
-
-    font-size: 0.75rem;
-    line-height: 1.1666666667;
-    font-family: Raleway;
-    color: #171717;
-    text-transform: uppercase;
-
-    background-color: #ffffff;
-    border: none;
+  margin: 0 1rem 3rem;
+  padding: 0;
+  font-size: 0.75rem;
+  line-height: 1.1666666667;
+  font-family: Raleway;
+  color: #171717;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  border: none;
 }
 
 .detail {
-    padding: 2rem 1rem;
-
-    border-bottom: solid 1px #c6c6c6;
+  padding: 2rem 1rem;
+  border-bottom: solid 1px #c6c6c6;
 }
 
 .detail_header {
-    position: relative;
-
-    margin: 0;
-
-    font-weight: 500;
-    font-size: 1rem;
-    line-height: 1.25;
-    color: #171717;
-    text-transform: uppercase;
+  position: relative;
+  margin: 0;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: #171717;
+  text-transform: uppercase;
 }
 
 .detail_header::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-
-    width: 0.625rem;
-    height: 1.25rem;
-
-    background-image: url(../img/triangle.svg);
-    background-repeat: no-repeat;
-    background-position: center right;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0.625rem;
+  height: 1.25rem;
+  background-image: url(../images/triangle.svg);
+  background-repeat: no-repeat;
+  background-position: center right;
 }
 
 .detail--active .detail_header::after {
-    transform: rotate(-180deg);
+  transform: rotate(-180deg);
 }
 
 .detail_descr {
-    margin: 2rem 0 0;
-
-    font-size: 0.875rem;
-    line-height: 1.7142857143;
-    font-family: Lora;
-    color: #171717;
+  margin: 2rem 0 0;
+  font-size: 0.875rem;
+  line-height: 1.7142857143;
+  font-family: Lora;
+  color: #171717;
 }
 
 .detail_descr p {
-    margin: 0;
+  margin: 0;
 }
 
 .detail_descr ul {
-    margin: 1.5rem 0 0;
-    padding: 0;
-
-    list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  list-style: none;
 }
 
 .recommendations {
-    padding: 3rem 1rem 0;
+  padding: 3rem 1rem 0;
 }
 
 .recommendations_header {
-    display: inline-block;
-    margin: 0 0 1.5rem;
-    padding-bottom: 0.5rem;
-
-    font-weight: 500;
-    font-size: 1rem;
-    line-height: 1.25;
-    color: #171717;
-    text-transform: uppercase;
-
-    border-bottom: solid 1px #171717;
+  display: inline-block;
+  margin: 0 0 1.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: #171717;
+  text-transform: uppercase;
+  border-bottom: solid 1px #171717;
 }
 
 .recommendations_list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-
-    list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .recommendations_item {
-    width: 130px;
-    margin: 0 0 2rem;
+  width: 130px;
+  margin: 0 0 2rem;
 }
 
 .recommendations_link {
-    display: flex;
-    flex-direction: column;
-
-    color: #111111;
-    text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  color: #111111;
+  text-decoration: none;
 }
 
 .recommendations_item-image {
-    width: 130px;
-    height: 174px;
+  width: 130px;
+  height: 174px;
 }
 
 .recommendations_item-title {
-    margin: 0.5rem 0;
-
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.25;
-    font-family: Lora;
-    color: #111111;
+  margin: 0.5rem 0;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25;
+  font-family: Lora;
+  color: #111111;
 }
 
 .recommendations_item-price {
-    margin: 0;
-
-    font-weight: 400;
-    font-size: 0.75rem;
-    line-height: 1.1666666667;
-    color: #999999;
+  margin: 0;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.1666666667;
+  color: #999999;
 }
 
 .more {
-    margin: 0 0 4rem;
-    padding: 1rem 1rem 0;
+  margin: 0 0 4rem;
+  padding: 1rem 1rem 0;
 }
 
 .more_header {
-    display: inline-block;
-    margin: 0 0 1.5rem;
-    padding-bottom: 0.5rem;
-
-    font-weight: 500;
-    font-size: 1rem;
-    line-height: 1.25;
-    color: #171717;
-    text-transform: uppercase;
-
-    border-bottom: solid 1px #171717;
+  display: inline-block;
+  margin: 0 0 1.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: #171717;
+  text-transform: uppercase;
+  border-bottom: solid 1px #171717;
 }
 
 .more_list {
-    margin: 0;
-    padding: 0;
-
-    list-style: none;
-    font-size: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
 }
 
 .more_item {
-    margin: 0 0 1rem;
+  margin: 0 0 1rem;
 }
 
 .more_link {
-    font-size: 0.875rem;
-    line-height: 1.2142857143;
-    font-family: Lora;
-    color: #171717;
-    text-decoration: none;
-    font-style: italic;
+  font-size: 0.875rem;
+  line-height: 1.2142857143;
+  font-family: Lora;
+  color: #171717;
+  text-decoration: none;
+  font-style: italic;
 }
 
 .main-footer {
-    padding: 2rem 1rem;
-
-    font-size: 0.75rem;
-    line-height: 1.1666666667;
-
-    background-color: #f3f3f3;
+  padding: 2rem 1rem;
+  font-size: 0.75rem;
+  line-height: 1.1666666667;
+  background-color: #f3f3f3;
 }
 
 .main-footer_country {
-    margin: 0 0 1rem;
-    padding: 0;
-
-    font-family: Raleway;
-    color: #999999;
-
-    background: inherit;
-    border: 0;
+  margin: 0 0 1rem;
+  padding: 0;
+  font-family: Raleway;
+  color: #999999;
+  background: inherit;
+  border: 0;
 }
 
 .main-footer_language {
-    margin: 0 0 1.5rem;
-    padding: 0;
-
-    font-family: Raleway;
-    color: #999999;
-
-    background: inherit;
-    border: 0;
+  margin: 0 0 1.5rem;
+  padding: 0;
+  font-family: Raleway;
+  color: #999999;
+  background: inherit;
+  border: 0;
 }
 
 .main-footer_contact {
-    text-align: center;
-    color: #171717;
-    text-decoration: none;
+  text-align: center;
+  color: #171717;
+  text-decoration: none;
 }
 
 .main-footer_help {
-    margin: 0 0 1rem;
-
-    font-weight: bold;
-    font-size: 1rem;
-    line-height: 1.25;
+  margin: 0 0 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.25;
 }
 
 .main-footer_find-out {
-    margin: 0;
-
-    font-size: 0.875rem;
-    line-height: 1.1428571429;
-    font-family: Lora;
-    font-style: italic;
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.1428571429;
+  font-family: Lora;
+  font-style: italic;
 }
